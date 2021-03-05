@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.6rem;
+}
+  
+
+
+/* ........... navbar section start ............. */
+#navbarbackground{
+ width: 100%;
+ clear: both;
+ min-height: 450px;
+ max-height: 450px;
+ background-image: url(background_img/background_01.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+background-position:  center center;
+
+
+}
+
+.navbar{
+    background-color: rgb(23, 106, 139) !important;
+}
+
+ li a{ 
+    color:white !important;
+    display:block;
+    padding:20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 10px !important;
+}
+
+ li a.active,
+ li a:hover{    
+    color: #00ffe7 !important;
+    background-color: #07515a;
+}
+
+.button-class{ 
+   text-align: center;
+   width: auto;
+    height: auto;
+    margin: 0 auto;
+   text-transform: uppercase;
+   height: 3rem;
+   width: 16rem;
+   letter-spacing: .2rem;
+   border-bottom: 5px solid #c86a43;
+   background: #eb7d4d;
+   color: #fff;
+ 
+}
+
+.button-class:hover{ 
+    background-color: rgb(0, 255, 106);
+  
+}
+
+.text-nav{
+    text-align: justify;
+    position: absolute;
+    margin-top: 150px !important;
+    font-size: 3.8rem;
+    font-weight: 700;
+   letter-spacing: .3rem;
+   text-shadow: .1rem .1rem .8rem#0070ff;
+   
+}
+/* ........... navbar section End  ............. */
+/* ############################################ */
+/* ...........SERVICES WE PROVIDE section start ............. */
+   .services{   
+    background-color: #06b6f9;
+    clear: both;
+}
+
+.sre-pic h2{
+   margin: 4rem 0rem 2rem 0rem !important;
+   font-size: 28px;
+}
+
+.sre-pic h2:hover{
+    color: #fff;
+    
+ }
+ 
+
+.sre-pic img:hover{
+    
+    transform:rotate(45deg);
+}
+
+
+
+
+/* ...........SERVICES WE PROVIDE section End ............. */
+/* ###################################################### */
+/* ...........our-tem section start ............ */
+.our-tem{
+   
+  background-color: #000000;
+  clear: both;
+ 
+}
+
+.atikur img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50% 50% 0 50%;
+    border-bottom: 5px solid #28a9e2;
+    transition:0.7s;
+     
+}
+
+.atikur img:hover{
+   border-radius: 0 50%;
+    border-bottom-color: #28972c;
+}
+
+.atikur h2{
+    padding: 25px 0  10px 0 !important;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.atikur h2:hover{
+    color:cyan;
+}
+
+
+.atikur h4{
+    padding:5px 0  10px 0 !important;
+    color: white;
+    font-size: 15px;
+    color:#2abb2e;
+    
+}
+.atikur h4:hover{
+    color:rgb(7, 197, 255);
+}
+
+.atikur p{
+    padding:15px 0  10px 0 !important;
+    color: white;
+    
+}
+
+.social-media i{
+    font-size: 0.8em;
+    background: #2f9e07;
+    padding: 10px !important;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+     margin: 3px auto !important;
+    
+    transition: all ease 0.3s;
+
+    margin: 1rem .3rem 3rem .3rem  !important;
+
+}
+
+.social-media i:hover{
+    background: #4c66a4;
+    color: #fff;    
+
+    transform:rotate(360deg);
+}
+
+
+/* ...........our-tem  section End  ............. */
+/* ####################################################### */
+
+
+/* ..........footer  section Start  ............. */
+/* ####################################################### */
+
+#footer{
+        background-color: black;
+
+}
+    
+/* ..........footer  section End  ............. */
+/* ####################################################### */
+
+
