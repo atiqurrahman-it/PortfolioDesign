@@ -229,5 +229,71 @@ background-position:  center center;
 /*   Counter section end  */
 /**********************************************************/
 
+/* ####################################################### */
+/* .........../ clients section start   ............. */
+
+.client-div{
+    background-color:#dfe6e6;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 420px;
+    background-color: aquamarine;
+   
+  }
+  
+  .swiper-slide .imgbox{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .swiper-slide .imgbox img{
+    position: center center;
+    width: 100%;
+    height: 280px;
+    cursor: pointer;
+  }
+  
+  
+  .swiper-slide .img_name-or-header-name{
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 0px;  
+  }
+  
+  .swiper-slide .img_name-or-header-name h1{
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 20px;  
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .swiper-slide .img_name-or-header-name p{
+     padding: 0;
+     margin: 0;
+     text-align: center;
+     color: blueviolet;
+  }
+
+
+
+
+/* .........../ client section End   ............. */
+/* ####################################################### */
+
 
 
