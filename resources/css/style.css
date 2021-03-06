@@ -83,6 +83,68 @@ background-position:  center center;
 }
 /* ........... navbar section End  ............. */
 /* ############################################ */
+
+/* ........... About Me section start  ............. */
+#about_me{
+  width: 100%;
+  clear: both;
+}
+.about_title{
+    color: #6b5e5e;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: cursive;
+}
+.heading-section h2{
+    color: #0da566;
+    font-weight: 600;
+    font-family: none;
+    margin: 10px 0px;
+    letter-spacing: 0.1rem;
+}
+
+.heading-section p{
+   color: #5a6f79;
+    text-align: justify;
+   
+}
+
+.a-l-n{
+    color: #ad9d9d;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.a-f-n{
+   margin-right: 80px;
+   color: #000000;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 19px;
+   
+}
+
+
+.my-habit i{
+  color: #29a6ff;
+  font-size: 32px;
+}
+
+.my-habit h2{
+    color: #000000;
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 800;
+}
+
+
+
+
+/* ........... About Me section End  ............. */
+/* ############################################ */
+
 /* ........... card section start .................*/
 
 .card-div-section{
