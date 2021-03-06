@@ -199,4 +199,35 @@ background-position:  center center;
 /* ..........footer  section End  ............. */
 /* ####################################################### */
 
+/*   start  counter sectiom start */
+/**********************************************************/
+#counter_div{
+  background-color: black;
+  width: 100%;
+  clear: both;
+}
+
+.icon {
+  color: #01edf9;
+  font-size: 45px;
+
+}
+
+.mu-single-counter h2{
+    color: white;
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.counter-name{
+    color: #03fbc2;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+/*   Counter section end  */
+/**********************************************************/
+
+
 
