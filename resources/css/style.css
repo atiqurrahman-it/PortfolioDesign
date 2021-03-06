@@ -83,6 +83,72 @@ background-position:  center center;
 }
 /* ........... navbar section End  ............. */
 /* ############################################ */
+/* ........... card section start .................*/
+
+.card-div-section{
+    background-color:#ffffff;
+    width: 100%;
+    clear: both;
+}
+
+.card{
+
+    clear: both;
+    background-color: black;
+    border-radius: none;
+    border:none !important;
+  
+}
+   
+
+.card:hover{
+ box-shadow: 0 0 5px rgba(0,0,0,0.8) inset, 0 0 10px rgba(0,0,0,0.8);
+  
+background-color: black;
+
+ }
+
+
+.card-title{
+    color: #28a9e2;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-contant ul{
+    list-style: none;
+/    
+}
+
+.card-contant ul li{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-align: center;
+ /* margin-left: 25px; */
+}
+
+.card_btn{
+   text-align: center;
+  
+}
+
+
+.card_btn a{
+    text-decoration: none;
+    font-size: 14px;
+ }
+ 
+
+.section-title .p{
+    color: red;
+
+}
+/* ################################################# */
 /* ...........SERVICES WE PROVIDE section start ............. */
    .services{   
     background-color: #06b6f9;
