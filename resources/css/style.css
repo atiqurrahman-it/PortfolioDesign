@@ -24,9 +24,11 @@
  clear: both;
  min-height: 450px;
  max-height: 450px;
- background-image: url(background_img/background_01.jpg);
- background-repeat: no-repeat;
- background-size: cover;
+/* background-image: url(background_img/background_01.jpg);
+*/ 
+ background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
 background-position:  center center;
 
 
@@ -51,35 +53,31 @@ background-position:  center center;
     background-color: #07515a;
 }
 
-.button-class{ 
-   text-align: center;
-   width: auto;
-    height: auto;
-    margin: 0 auto;
+.header_second_part{
+       position: absolute;
+       margin-top: 150px !important;
+   }
+
+.subheading{
+    font-size: 13px;
+   font-weight: 700;
+   display: block;
+   margin-bottom: 5px;
    text-transform: uppercase;
-   height: 3rem;
-   width: 16rem;
-   letter-spacing: .2rem;
-   border-bottom: 5px solid #c86a43;
-   background: #eb7d4d;
-   color: #fff;
- 
+   color: #b1b493;
+   letter-spacing: 3px;
 }
 
-.button-class:hover{ 
-    background-color: rgb(0, 255, 106);
-  
+.header_second_part_text h1{
+    line-height: 1.2;
+    font-weight: 800;
+    color:white;
 }
 
-.text-nav{
-    text-align: justify;
-    position: absolute;
-    margin-top: 150px !important;
-    font-size: 3.8rem;
-    font-weight: 700;
-   letter-spacing: .3rem;
-   text-shadow: .1rem .1rem .8rem#0070ff;
-   
+.header_second_part_text span{
+    line-height: 1.2;
+    font-weight: 800;
+   color: #b1b493;
 }
 /* ........... navbar section End  ............. */
 /* ############################################ */
@@ -104,7 +102,7 @@ background-position:  center center;
 }
 
 .heading-section p{
-   color: #5a6f79;
+    color: #5a6f79;
     text-align: justify;
    
 }
@@ -144,11 +142,133 @@ ul.about-info li span {
     font-weight: 800;
 }
 
+ /* second part */
+ .sidebar span{
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: lowercase;
+    color: #b1b493;
+    letter-spacing: 3px;
+
+   }
+
+   .sidebar h2{
+    color: #308ab5;
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 5px 0px;
+   }
+
+   .sidebar h2:hover{
+    color: #19b1f8;
+    font-size: 28px;
+
+   
+   }
+
+    .contact_link{
+       text-align: center;
+   }
+   .contact_link ul{
+       list-style: none;
+
+   }
+   .contact_link ul li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 10px;
+    color:blueviolet;
+    transition: all ease 0.3s;
+
+   }
+
+   .contact_link ul li:hover{
+
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transform:rotate(360deg);
+    color: white;
+
+   }
+
+
 
 
 
 /* ........... About Me section End  ............. */
 /* ############################################ */
+
+/* ...........protfullio section start ............. */
+
+#protfullio{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    clear: both;
+    overflow: hidden;
+
+}
+
+.header_portfolio h1{
+    color: #fff;
+    font-weight: 600;
+    font-family: none;
+    margin: 20px 0px;
+    letter-spacing: 0.1rem;
+
+}
+
+.header_portfolio p{
+   color: black;
+   text-align: center;
+}
+
+
+.protfulio-navbar{
+     flex: auto;
+    text-align: center;
+  
+}
+
+.protfulio-navbar ul{
+  list-style: none;
+  
+ }
+
+
+.protfulio-navbar ul li{
+  display: inline-block; 
+
+  
+}
+
+.protfulio-navbar button{ 
+    background-color: #ebc985;
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border: 0;
+    border-radius:0.3rem;
+}
+
+#mixtuo_parent img{
+    width: 70%;
+    height: 50%;
+}
+
+.protfulio-navbar button:hover{ 
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: inset 0 .3rem .3rem #a26218;
+    transition: .5s;
+}
+
+
+/* .........../ protfullio section End  ............. */
+/* ####################################################### */
 
 /* ........... card section start .................*/
 
@@ -228,34 +348,10 @@ background-color: black;
     color: red;
 
 }
+
+/* ........... card section End .................*/
 /* ################################################# */
-/* ...........SERVICES WE PROVIDE section start ............. */
-   .services{   
-    background-color: #06b6f9;
-    clear: both;
-}
 
-.sre-pic h2{
-   margin: 4rem 0rem 2rem 0rem !important;
-   font-size: 28px;
-}
-
-.sre-pic h2:hover{
-    color: #fff;
-    
- }
- 
-
-.sre-pic img:hover{
-    
-    transform:rotate(45deg);
-}
-
-
-
-
-/* ...........SERVICES WE PROVIDE section End ............. */
-/* ###################################################### */
 /* ...........our-tem section start ............ */
 .our-tem{
   background-color: #000000;
@@ -346,49 +442,6 @@ background-color: black;
 
 /* ...........our-tem  section End  ............. */
 /* ####################################################### */
-
-
-/* ..........footer  section Start  ............. */
-/* ####################################################### */
-
-#footer{
-        background-color: black;
-
-}
-    
-/* ..........footer  section End  ............. */
-/* ####################################################### */
-
-/*   start  counter sectiom start */
-/**********************************************************/
-#counter_div{
-  background-color: black;
-  width: 100%;
-  clear: both;
-}
-
-.icon {
-  color: #01edf9;
-  font-size: 45px;
-
-}
-
-.mu-single-counter h2{
-    color: white;
-    font-weight: 600;
-    font-family: 'Font Awesome 5 Brands';
-}
-
-.counter-name{
-    color: #03fbc2;
-    font-family: cursive;
-    font-weight: 500;
-    font-size: x-large;
-}
-
-/*   Counter section end  */
-/**********************************************************/
-
 /* ####################################################### */
 /* .........../ clients section start   ............. */
 
@@ -464,12 +517,102 @@ background-color: black;
      text-align: center;
      color: blueviolet;
   }
-
-
-
-
 /* .........../ client section End   ............. */
 /* ####################################################### */
+
+
+
+/*   start  counter sectiom start */
+/**********************************************************/
+#counter_div{
+  background-color: black;
+  width: 100%;
+  clear: both;
+}
+
+.icon {
+  color: #01edf9;
+  font-size: 45px;
+
+}
+
+.mu-single-counter h2{
+    color: white;
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.counter-name{
+    color: #03fbc2;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+/*   Counter section end  */
+/**********************************************************/
+
+/* .......... Contact  section Start  ............. */
+/* ####################################################### */
+#contact{
+  width: 100%;
+  clear: both;
+background-image: linear-gradient(to right top, #aa216f, #a52b85, #9a379b, #8945b0, #6e52c3, #5967d5, #3d79e3, #008bee, #00a6f6, #00bef3, #00d3e8, #4be5db);
+}
+
+.header_contact h1{
+   margin: 10px 0px 30px 0px;
+    color: #ffffff;
+    font-size: 37px;
+    font-weight: 700;
+    font-family: emoji;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+
+}
+
+.my_btn{
+   .color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    border:none;
+
+}
+   
+    
+/* ..........Contact  section End  ............. */
+/* ####################################################### */
+
+/* ..........footer  section Start  ............. */
+/* ####################################################### */
+
+#footer{
+        background-color: black;
+        width: 100%;
+        clear: both;
+}
+
+#footer h5{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    font-family: auto;
+    padding-bottom: 20px;
+}
+
+.foter_header p{
+    color: #bfaeae;
+    text-transform: capitalize;
+}
+
+    
+/* ..........footer  section End  ............. */
+/* ####################################################### */
+
 
 
 
