@@ -203,6 +203,124 @@ ul.about-info li span {
 /* ........... About Me section End  ............. */
 /* ############################################ */
 
+/* ####################################################### */
+/* .........../ skills section start  ............. */
+
+.skils{
+ 
+    background-color: #d0c1c1;
+    clear: both;
+
+}
+
+/*  some copy code start   */
+svg.radial-progress circle {
+     stroke-width: 8px;
+
+     }
+
+     svg.radial-progress text {
+        stroke:#3c4761;
+        font-size: .9rem;
+       
+        }
+
+svg.Web-Design circle{
+    stroke:#30bae7;
+}
+svg.HTML-CSS circle{
+    stroke:#d74680;
+}
+
+svg.GRAPHIC-DESIGN circle{
+    stroke:#15c7a8;
+}
+
+svg.UI-UX circle{
+    stroke:#eb7d4b;
+}
+/* copy code end   */
+.box h5{
+    margin: 4rem 0rem 2rem 0 !important;
+  
+    color: black;
+}
+.box h5:hover{
+   
+    color: rgb(57, 187, 17);
+}
+
+
+.headaing-underline h1{
+    padding-top: 8rem !important;
+    padding-bottom:2rem !important ;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size:2.5rem ;
+    font-weight:600 ;
+   
+}
+.headaing-underline h1::after{
+    content: "";
+    display: block;
+    width: 8rem;
+    height: 0.1rem;
+    background-color:black;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+/*skill progess bar*/ 
+
+.barfiller {
+  width: 100%;
+  height: 12px;
+  background: #fcfcfc;
+  border: 1px solid #ccc;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+}
+
+.barfiller .fill {
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 100%;
+  background: #333;
+  z-index: 1;
+}
+
+.barfiller .tipWrap { display: none; }
+
+.barfiller .tip {
+  margin-top: -30px;
+  padding: 2px 4px;
+  font-size: 11px;
+  color: #fff;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+  background: #333;
+}
+
+.barfiller .tip:after {
+  border: solid;
+  border-color: rgba(0,0,0,.8) transparent;
+  border-width: 6px 6px 0 6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 9px;
+  top: 100%;
+  z-index: 9
+}
+
+
+/* .........../ skills section end   ............. */
+/* ####################################################### */
+
 /* ...........protfullio section start ............. */
 
 #protfullio{
@@ -421,7 +539,7 @@ background-color: black;
 
 .social-media i{
     font-size: 0.8em;
-    background: #2f9e07;
+    background:blueviolet;
     padding: 10px !important;
     border-radius: 50%;
     width: 32px;
