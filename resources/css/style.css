@@ -22,17 +22,20 @@
 #navbarbackground{
  width: 100%;
  clear: both;
- min-height: 450px;
- max-height: 450px;
-/* background-image: url(background_img/background_01.jpg);
-*/ 
- background-color: black;
+ min-height: 650px;
+ max-height: 650px;
+ background-image: url(background_img/atiqur.png);
+ 
+/* background-color: black;
+*/
 background-repeat: no-repeat;
 background-size: cover;
-background-position:  center center;
+background-position: center;
 
 
 }
+
+
 
 .navbar{
 /*  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%) !important;
@@ -56,7 +59,7 @@ background-position:  center center;
 
 .header_second_part{
        position: absolute;
-       margin-top: 150px !important;
+       margin-top: 270px !important;
    }
 
 .subheading{
@@ -142,6 +145,8 @@ ul.about-info li span {
     font-family: system-ui;
     font-weight: 800;
 }
+
+
 
  /* second part */
  .sidebar span{
@@ -341,6 +346,8 @@ svg.UI-UX circle{
 
 }
 
+
+
 .header_portfolio p{
    color: black;
    text-align: center;
@@ -368,7 +375,7 @@ svg.UI-UX circle{
 .protfulio-navbar button{ 
     background-color: #ebc985;
     font-size: 18px;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.8rem;
     text-transform: uppercase;
     border: 0;
     border-radius:0.3rem;
@@ -736,4 +743,26 @@ background-image: linear-gradient(to right top, #aa216f, #a52b85, #9a379b, #8945
 
 
 
+@media (min-width: 476px) and (max-width: 767.98px) {
+  #navbarbackground{
+ min-height: 550px;
+ max-height: 550px;
+ background-image: url(background_img/atiqur.png);
+ 
+/* background-color: black;
+*/
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+
+
+}
+
+.header_second_part{
+       position: absolute;
+       margin-top: 220px !important;
+   }
+
+
+}
 
