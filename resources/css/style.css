@@ -233,7 +233,8 @@ ul.about-info li span {
 
 #resent_project{
   width: 100%;
-  color: both;
+  clear: both;
+  background-color: #efdddd;
 
 }
 
