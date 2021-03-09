@@ -24,7 +24,7 @@
  clear: both;
  min-height: 650px;
  max-height: 650px;
- background-image: url(background_img/atiqur.png);
+ background-image: url(background_img/atiq.png);
  
 /* background-color: black;
 */
@@ -91,18 +91,38 @@ background-position: center;
   width: 100%;
   clear: both;
 }
+
+.img_div{
+  padding-top:55px;
+  background-color: #dedddd;
+  perspective: 650px;
+
+}
+
+.img_div img{
+  width: 100%;
+  height: 400px;
+    transform: rotateY(45deg);
+
+
+}
+
 .about_title{
     color: #6b5e5e;
     font-size: 25px;
     font-weight: 300;
     font-family: cursive;
+
 }
+
 .heading-section h2{
     color: #0da566;
     font-weight: 600;
     font-family: none;
     margin: 10px 0px;
     letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 4px #000000;
+    
 }
 
 .heading-section p{
@@ -207,6 +227,83 @@ ul.about-info li span {
 
 /* ........... About Me section End  ............. */
 /* ############################################ */
+
+/* ........... Resent Project section Start  ..... */
+/* ############################################ */
+
+#resent_project{
+  width: 100%;
+  color: both;
+
+}
+
+
+
+
+.headaing-underline h1{
+   color: #0da566;
+   text-shadow: 2px 2px 4px #000000;
+}
+
+.after_before_card img{
+  width:100%;
+  height: 220px;
+}
+
+.after_before_card .card-body p{
+  color:white;
+
+}
+.after_before_card{
+  width: 100%;
+  color: both;
+  position: relative;
+}
+
+.after_before_card::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #e21f36;
+  transition: 0.7s;
+  opacity: 0.4;
+
+}
+
+.after_before_card::before{
+   content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #e21f36;
+  transition: 0.7s;
+    opacity: 0.4;
+
+  
+}
+
+.after_before_card:hover:after{
+   width: 0px;
+   transition: 0.5s;
+   
+}
+
+.after_before_card:hover:before{
+   width: 0px;
+   transition: 0.5s;
+  
+
+}
+
+
+/* ........... Resent Project section End  ..... */
+/* ############################################ */
+
 
 /* ####################################################### */
 /* .........../ skills section start  ............. */
@@ -488,7 +585,7 @@ background-color: black;
 }
 
 .our_tem_header h1{
-  margin-top: 30px; 
+  margin-top: 50px; 
   color: #005aff;
     font-size: 37px;
     font-weight: 700;
@@ -508,6 +605,7 @@ background-color: black;
     border-radius: 50%;
     border-bottom: 5px solid ;
     transition:0.7s;
+    
      
 }
 

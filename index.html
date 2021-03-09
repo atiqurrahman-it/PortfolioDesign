@@ -22,6 +22,12 @@
   <!-- swiper css link   -->
   <link rel="stylesheet" href="vanders/css/swiper.min.css">
   <link rel="stylesheet" type="text/css" href="vanders/css/circle.css">
+
+<!--   resent project start -->
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="vanders/css/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="vanders/css/slick-theme.css">
   
 
 
@@ -32,7 +38,7 @@
 
   </head>
 
-<body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="50">
+<body data-spy="scroll" data-target="#mynavbar" data-offset="50">
 
 	 <div id="home">
         <header id="navbarbackground">
@@ -75,11 +81,11 @@
 <!-- ................... About Me section  End  ............................-->
 <!-- ********************************************************************-->
 <section id="about_me" class="my_about">
-  <div class="">
+  <div class="container-fluid">
     <div class="row">
         <div class="col-md-4">
             <div class="row">
-                <div class="col-12">
+                 <div class="col-12 img_div">
                     <img class="img-fluid" src="resources/img/clients-02.png" alt="Img Not Found">
                  </div>
 
@@ -100,7 +106,7 @@
                 </div>
             </div>     
         </div> <!-- first col end -->
-        <div class="col-md-8">
+        <div class="col-md-8 pt-5">
             <div class="col-md-12 heading-section mt-5">
                 <span class="about_title">My Intro</span>
                 <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
@@ -140,6 +146,82 @@
   </div>  
 </section>
 <!-- ................... About Me section  End  ............................-->
+<!-- ********************************************************************-->
+
+<!-- ................... Resent project  section  Start  .................-->
+<!-- ********************************************************************-->
+<section id="resent_project">
+    <div class="container">
+        <div class="row text-center headaing-underline">
+            <div class="col-12">
+                    <h1>Resent Project</h1>
+                   
+            </div>
+
+        </div> <!-- End first row-->
+        <div class="row resent_pro">
+            <div class="col-md-6 col-sm-6 col-lg-3">
+               <div class="card after_before_card">
+                  <img class="card-img-top" src="resources/img/resent_proect_011.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center"> Some quick example text to build </p>
+                  </div>
+                </div>
+            </div>
+             <div class="col-md-6 col-sm-6 col-lg-3">
+               <div class="card after_before_card">
+                  <img class="card-img-top" src="resources/img/resent_proect_02.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center"> Some quick example text to build </p>
+                  </div>
+                </div>
+            </div>
+             <div class="col-md-6 col-sm-6 col-lg-3">
+               <div class="card after_before_card">
+                  <img class="card-img-top" src="resources/img/resent_proect_03.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center"> Some quick example text to build </p>
+                  </div>
+                </div>
+            </div>
+             <div class="col-md-6 col-sm-6 col-lg-3">
+               <div class="card after_before_card">
+                  <img class="card-img-top" src="resources/img/resent_proect_04.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center"> Some quick example text to build </p>
+                  </div>
+                </div>
+            </div>
+             <div class="col-md-6 col-sm-6 col-lg-3">
+               <div class="card after_before_card">
+                  <img class="card-img-top" src="resources/img/resent_proect_05.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center"> Some quick example text to build </p>
+                  </div>
+                </div>
+            </div>
+             <div class="col-md-6 col-sm-6 col-lg-3">
+               <div class="card after_before_card">
+                  <img class="card-img-top" src="resources/img/resent_proect_06.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center"> Some quick example text to build </p>
+                  </div>
+                </div>
+            </div>
+             <div class="col-md-6 col-sm-6 col-lg-3">
+               <div class="card after_before_card">
+                  <img class="card-img-top" src="resources/img/resent_proect_07.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center"> Some quick example text to build </p>
+                  </div>
+                </div>
+            </div>
+
+        </div> <!-- End Second row-->
+    </div>
+    
+</section>
+<!-- ................... Resent project  section  End  .................-->
 <!-- ********************************************************************-->
 
 <!-- ................... Skills  section  Start  ........................-->
@@ -486,7 +568,7 @@
 <!--************************************************************************************-->
     <!-- ............................. our-tem section  start  .........................-->
     <section class="our-tem" id="textimolial">
-        <div class="neet-out-team text-center">
+        <div class="neet-out-team text-center pt-5">
             <div class="row">
                 <!-- first row. start  .-->
                 <div class="col-12 our_tem_header">
@@ -897,10 +979,51 @@
    
 });
     </script>
-
-
 <!-- progress bar js start -->
 
+
+<!-- resent project start -->
+<script type="text/javascript" src="vanders/js/slick.min.js"></script>
+<script >
+$('.resent_pro').slick({
+  dots: true,
+  infinite: true,  
+  speed: 300,
+  slidesToShow: 3, //project show-
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+         arrows: false,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+         arrows: false,
+      }
+    }
+   
+  ]
+});
+
+</script>
 
 
 
